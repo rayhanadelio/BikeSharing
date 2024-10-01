@@ -9,7 +9,7 @@ st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 # Fungsi untuk membaca data dari GitHub
 @st.cache
 def load_data():
-    data_hour = pd.read_csv('https://raw.githubusercontent.com/rayhanadelio/BikeSharingDataset/refs/heads/main/hour.csv')
+    data_hour = pd.read_csv('https://raw.githubusercontent.com/rayhanadelio/BikeSharing/refs/heads/main/hour.csv')
     data_day = pd.read_csv('https://raw.githubusercontent.com/rayhanadelio/BikeSharing/refs/heads/main/day.csv')
     return data_hour, data_day
 
