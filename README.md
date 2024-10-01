@@ -1,41 +1,72 @@
 # Bike Sharing Analysis Dashboard
 
-Dashboard ini menampilkan analisis interaktif tentang penyewaan sepeda menggunakan Streamlit. Anda dapat melihat pengaruh cuaca dan perbedaan antara pengguna kasual dan terdaftar.
+Dashboard ini adalah aplikasi visualisasi interaktif untuk menganalisis data *Bike Sharing*. Dashboard dibangun menggunakan Streamlit dan berfokus pada dua pertanyaan utama:
+1. Bagaimana cuaca mempengaruhi jumlah penyewaan sepeda di hari kerja dan hari libur?
+2. Seberapa besar perbedaan jumlah penyewaan sepeda antara pengguna terdaftar dan kasual pada hari libur dan hari kerja?
 
- Cara Cepat Menjalankan Dashboard
+## Demo Dashboard
+Anda dapat menggunakan Streamlit untuk menjalankan aplikasi ini secara lokal dan mendapatkan wawasan mengenai penyewaan sepeda berdasarkan faktor cuaca dan tipe pengguna.
 
-1. Clone repositori:
-    
+## Fitur
+- Visualisasi Pengaruh Cuaca terhadap jumlah penyewaan sepeda di hari kerja dan hari libur.
+- Perbandingan Pengguna Kasual vs Terdaftar dalam hal jumlah penyewaan sepeda.
+- Menu Interaktif untuk memudahkan pengguna dalam memilih jenis analisis yang diinginkan.
+
+## Persyaratan
+Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
+- Python 3.7 atau lebih baru.
+- Streamlit untuk membangun dashboard.
+- Pandas untuk manipulasi data.
+- Matplotlib untuk visualisasi.
+
+## Instalasi
+
+1. Clone repositori ini:
+    ```sh
     git clone https://github.com/username/BikeSharingDataset.git
+    ```
+    Gantilah `username` dengan nama pengguna GitHub Anda.
+
+2. Navigasi ke folder repositori:
+    ```sh
     cd BikeSharingDataset
-    
+    ```
 
-2. Buat virtual environment (Opsional):
-    
-    python -m venv venv
-    source venv/bin/activate   # Linux/Mac
-    venv\Scripts\activate      # Windows
-    
+3. Membuat virtual environment (Opsional tapi disarankan):
+    ```sh
+    python -m venv streamlit_env
+    ```
 
-3. Instal dependensi:
-    
+4. Aktivasi virtual environment:
+    - Linux/MacOS:
+      ```sh
+      source streamlit_env/bin/activate
+      ```
+    - Windows:
+      ```sh
+      streamlit_env\Scripts\activate
+      ```
+
+5. Instal dependensi:
+    ```sh
     pip install -r requirements.txt
-    
+    ```
+    Pastikan Anda memiliki file `requirements.txt` yang berisi dependensi berikut:
+    ```
+    streamlit
+    pandas
+    matplotlib
+    seaborn
+    ```
 
-4. Jalankan dashboard:
-    
+## Menjalankan Dashboard
+
+1. Jalankan aplikasi Streamlit:
+    ```sh
     streamlit run bike_sharing_dashboard.py
-    
+    ```
 
- Fitur Dashboard
-- Analisis Cuaca: Pengaruh cuaca terhadap penyewaan sepeda.
-- Pengguna Kasual vs Terdaftar: Perbandingan penyewaan di hari kerja dan hari libur.
+2. Buka Browser: Setelah perintah di atas dijalankan, aplikasi akan membuka browser secara otomatis di alamat `http://localhost:8501/`. Jika tidak terbuka, salin dan tempel URL tersebut di browser Anda.
 
- Struktur File
-- `hour.csv` & `day.csv`: Dataset penyewaan sepeda.
-- `bike_sharing_dashboard.py`: Script utama Streamlit.
-- `requirements.txt`: Dependensi.
+## Struktur Repositori
 
- Catatan
-- Repositori harus bersifat Public agar dataset dapat diakses.
-- Pastikan menggunakan Python 3.7+.
