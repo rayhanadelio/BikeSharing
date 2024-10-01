@@ -16,9 +16,8 @@ Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
 
 1. Clone repositori ini:
     ```sh
-    git clone https://github.com/username/BikeSharingDataset.git
+    git clone https://github.com/rayhanadelio/BikeSharingDataset.git
     ```
-    Gantilah `username` dengan nama pengguna GitHub Anda.
 
 2. Navigasi ke folder repositori:
     ```sh
