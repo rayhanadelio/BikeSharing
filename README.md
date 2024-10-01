@@ -16,12 +16,12 @@ Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
 
 1. Clone repositori ini:
     ```sh
-    git clone https://github.com/rayhanadelio/BikeSharingDataset.git
+    git clone https://github.com/rayhanadelio/BikeSharing.git
     ```
 
 2. Navigasi ke folder repositori:
     ```sh
-    cd BikeSharingDataset
+    cd BikeSharing
     ```
 
 3. Membuat virtual environment (Opsional tapi disarankan):
