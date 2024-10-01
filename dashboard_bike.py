@@ -61,6 +61,7 @@ if menu == "Analisis Pengguna":
 # Menambahkan informasi tentang dashboard
 st.sidebar.header("Informasi")
 st.sidebar.text("Dashboard ini menampilkan analisis\n"
-                 "tentang penyewaan sepeda berdasarkan\n"
-                 "cuaca dan jenis pengguna.")
+                 "tentang penyewaan sepeda\n"
+                 "berdasarkan cuaca dan\n"
+                 "jenis pengguna.)
 
