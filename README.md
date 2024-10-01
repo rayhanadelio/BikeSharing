@@ -1,10 +1,5 @@
 # Bike Sharing Analysis Dashboard
 
-## Fitur
-- Visualisasi Pengaruh Cuaca terhadap jumlah penyewaan sepeda di hari kerja dan hari libur.
-- Perbandingan Pengguna Kasual vs Terdaftar dalam hal jumlah penyewaan sepeda.
-- Menu Interaktif untuk memudahkan pengguna dalam memilih jenis analisis yang diinginkan.
-
 ## Persyaratan
 Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
 - Python 3.7 atau lebih baru.
