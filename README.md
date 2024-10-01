@@ -38,22 +38,16 @@ Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
     ```sh
     pip install -r requirements.txt
     ```
-    Pastikan Anda memiliki file `requirements.txt` yang berisi dependensi berikut:
-    ```
-    streamlit
-    pandas
-    matplotlib
-    seaborn
+    ```sh
+    pip install streamlit
     ```
 
 ## Menjalankan Dashboard
 
 1. Jalankan aplikasi Streamlit:
     ```sh
-    streamlit run bike_sharing_dashboard.py
+    streamlit run dashboard_bike.py
     ```
 
 2. Buka Browser: Setelah perintah di atas dijalankan, aplikasi akan membuka browser secara otomatis di alamat `http://localhost:8501/`. Jika tidak terbuka, salin dan tempel URL tersebut di browser Anda.
-
-## Struktur Repositori
 
