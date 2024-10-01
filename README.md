@@ -14,27 +14,7 @@ Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
     git clone https://github.com/rayhanadelio/BikeSharing.git
     ```
 
-2. Navigasi ke folder repositori:
-    ```sh
-    cd BikeSharing
-    ```
-
-3. Membuat virtual environment (Opsional tapi disarankan):
-    ```sh
-    python -m venv streamlit_env
-    ```
-
-4. Aktivasi virtual environment:
-    - Linux/MacOS:
-      ```sh
-      source streamlit_env/bin/activate
-      ```
-    - Windows:
-      ```sh
-      streamlit_env\Scripts\activate
-      ```
-
-5. Instal dependensi:
+2. Instal dependensi:
     ```sh
     pip install -r requirements.txt
     ```
