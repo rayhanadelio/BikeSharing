@@ -1,12 +1,5 @@
 # Bike Sharing Analysis Dashboard
 
-Dashboard ini adalah aplikasi visualisasi interaktif untuk menganalisis data *Bike Sharing*. Dashboard dibangun menggunakan Streamlit dan berfokus pada dua pertanyaan utama:
-1. Bagaimana cuaca mempengaruhi jumlah penyewaan sepeda di hari kerja dan hari libur?
-2. Seberapa besar perbedaan jumlah penyewaan sepeda antara pengguna terdaftar dan kasual pada hari libur dan hari kerja?
-
-## Demo Dashboard
-Anda dapat menggunakan Streamlit untuk menjalankan aplikasi ini secara lokal dan mendapatkan wawasan mengenai penyewaan sepeda berdasarkan faktor cuaca dan tipe pengguna.
-
 ## Fitur
 - Visualisasi Pengaruh Cuaca terhadap jumlah penyewaan sepeda di hari kerja dan hari libur.
 - Perbandingan Pengguna Kasual vs Terdaftar dalam hal jumlah penyewaan sepeda.
