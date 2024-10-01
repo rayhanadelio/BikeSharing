@@ -63,5 +63,5 @@ st.sidebar.header("Informasi")
 st.sidebar.text("Dashboard ini menampilkan analisis\n"
                  "tentang penyewaan sepeda\n"
                  "berdasarkan cuaca dan\n"
-                 "jenis pengguna.)
+                 "jenis pengguna.")
 
