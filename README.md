@@ -1,7 +1,7 @@
 # Bike Sharing Analysis Dashboard
 
 ## Persyaratan
-Pastikan Anda memiliki komponen berikut sebelum menjalankan aplikasi:
+Pastikan memiliki komponen ini sebelum menjalankan aplikasi:
 - Python 3.7 atau lebih baru.
 - Streamlit untuk membangun dashboard.
 - Pandas untuk manipulasi data.
